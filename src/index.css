@@ -1,0 +1,69 @@
+.cell{
+  border: 1px solid;
+  border-color: hsl(0, 0%, 90%);
+  height: 25.5px;
+  width: 25.5px;
+  position: relative;
+}
+.container{
+
+}
+h1{
+  margin-top:3px; 
+}
+
+
+.bg-coloring{
+  background-color: rgba(111, 26, 114, 0.253)
+}
+
+.btn{ width:100px;
+  margin-bottom:3px; 
+}
+
+.btn-primary{}
+.bg-dark{}
+
+.grid{
+  Margin-left:260px;
+  width: 570px;
+  position:fixed;
+}
+
+.cell.false{
+  background-color:#7280c9 ;
+}
+.cell.true{
+  background-color: hsl(120, 70%, 62%);
+
+}
+
+@media only screen and (max-width: 600px) {
+  .grid{
+  margin-left: 0px;
+  width: 510px;
+ 
+  }
+  .cell{
+    border: 1px solid;
+    border-color: hsl(355, 50%, 42%);
+    height: 22px;
+    width: 22px;
+    margin: 1px;
+  }
+}
+/*   
+@media only screen and (max-width: 300px) {
+  .grid{
+  margin-left: 0px;
+  width: 400px;
+ 
+  }
+  .cell{
+    border: 1px solid;
+    border-color: hsl(355, 50%, 42%);
+    height: 10px;
+    width: 5px;
+    margin: 0%;
+  }
+} */
